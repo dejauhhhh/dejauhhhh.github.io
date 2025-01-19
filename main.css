@@ -22,8 +22,8 @@ font-family: 'Noto Serif', serif;
 }
 
 html {
-  background-color: #142216;
-  height: 100%;
+  background-color: #0f1b11;
+  height: 105%;
   overflow: hidden;
   font-size: 16px;
 }
@@ -34,15 +34,12 @@ body {
   text-align: center;
   line-height: 1.65;
   padding: 32px;
-  margin: 32px;
+  margin: 16px;
   background-image: url("img/bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
   font-size: 16px;
-
   height: calc(100% - 64px);
   overflow-y: scroll;
 }
@@ -401,8 +398,8 @@ span {
   #three {
     width: 100%;
     float: none;
-    padding: 0;
-    margin: 0;
+    padding: auto;
+    margin: auto;
 
   }
 
@@ -410,7 +407,9 @@ span {
   #four {
     width: 100%;
     float: none;
-
+    padding: auto;
+    margin: auto;
+    
   }
 }
 
